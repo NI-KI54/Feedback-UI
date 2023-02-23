@@ -35,8 +35,10 @@ body{
     margin: 10px 5px;
 }
 
-.rating:hover{
-    background-color: darkcyan;
+.rating:hover,
+.rating.active
+{
+    background: darkcyan;
     border-radius: 8.5px;
     box-shadow: o o 10px rgba(0, 0, 0, .3);
     color: white;
