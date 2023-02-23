@@ -1,7 +1,9 @@
-const ratingsEls = documet.querySelectorAll("ratings");
+const ratingEls = document.querySelectorAll(".rating");
 
-
-ratingsEls.forEach(ratings => {
-    ratingsEls.addEvenListener("click", (event)
-    
+ratingEls.forEach((ratingEl) => {
+    ratingEl.addEventListener("click", (event) => {
+        console.log(event.target.innerText || event.target.parentNode.innerText);
+        event.target.classList.add("active")
+        event.target.parentNode.classList.add("active")
+    });
 });

@@ -29,13 +29,13 @@ body{
     padding: 20px 0;
 }
 
-.ratings{
+.rating{
     cursor: pointer;
     padding: 10px;
     margin: 10px 5px;
 }
 
-.ratings:hover{
+.rating:hover{
     background-color: darkcyan;
     border-radius: 8.5px;
     box-shadow: o o 10px rgba(0, 0, 0, .3);
@@ -61,6 +61,6 @@ body{
 .btn:active{
     transform: scale(0.96);
 }
-.ratings img{
+.rating img{
     height: 40px;
 }
